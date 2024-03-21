@@ -1,13 +1,23 @@
+:root {
+  --background-color: #aa2f1d;
+  --box-shadow-color: 30, 42, 58;
+  --toggle-bg: #fff;
+  --toggle-icon: #222;
+}
+
+.dark-theme {
+  --background-color: #1e2a3a;
+  --box-shadow-color: 245, 245, 245;
+  --toggle-bg: #00b7ff;
+  --toggle-icon: #fff;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  background: var(--background-color);
+  overflow: hidden;
 }
